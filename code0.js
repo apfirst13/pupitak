@@ -9,13 +9,13 @@ gdjs.LobbyCode.GDGameNameObjects1= [];
 gdjs.LobbyCode.GDGameNameObjects2= [];
 
 
-gdjs.LobbyCode.asyncCallback8393916 = function (runtimeScene, asyncObjectsList) {
+gdjs.LobbyCode.asyncCallback15333660 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LobbyCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "GamePlay", false);
 }
 gdjs.LobbyCode.localVariables.length = 0;
 }
-gdjs.LobbyCode.idToCallbackMap.set(8393916, gdjs.LobbyCode.asyncCallback8393916);
+gdjs.LobbyCode.idToCallbackMap.set(15333660, gdjs.LobbyCode.asyncCallback15333660);
 gdjs.LobbyCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -25,7 +25,7 @@ gdjs.LobbyCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LobbyCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05), (runtimeScene) => (gdjs.LobbyCode.asyncCallback8393916(runtimeScene, asyncObjectsList)), 8393916, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.LobbyCode.asyncCallback15333660(runtimeScene, asyncObjectsList)), 15333660, asyncObjectsList);
 }
 }
 
