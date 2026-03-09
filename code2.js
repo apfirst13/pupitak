@@ -27,7 +27,7 @@ gdjs.GameOverCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameOverCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.GameOverCode.asyncCallback12135452(runtimeScene, asyncObjectsList)), 12135452, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.GameOverCode.asyncCallback12135452(runtimeScene, asyncObjectsList)), 12135452, asyncObjectsList);
 }
 }
 

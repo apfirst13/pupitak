@@ -119,9 +119,9 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.randomInRange(1, 100));
+{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.randomInRange(1, 20));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(gdjs.randomInRange(1, 100));
+{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(gdjs.randomInRange(1, 20));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber());
 }
@@ -140,9 +140,9 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber() == 2);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.randomInRange(1, 100));
+{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.randomInRange(1, 20));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(gdjs.randomInRange(1, 100));
+{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(gdjs.randomInRange(1, 20));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber());
 }
@@ -472,9 +472,9 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.randomInRange(1, 100));
+{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.randomInRange(1, 20));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(gdjs.randomInRange(1, 100));
+{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(gdjs.randomInRange(1, 20));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber());
 }
@@ -493,9 +493,9 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber() == 2);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.randomInRange(1, 100));
+{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.randomInRange(1, 20));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(gdjs.randomInRange(1, 100));
+{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(gdjs.randomInRange(1, 20));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber());
 }

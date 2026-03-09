@@ -25,7 +25,7 @@ gdjs.LobbyCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LobbyCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.LobbyCode.asyncCallback15333660(runtimeScene, asyncObjectsList)), 15333660, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.LobbyCode.asyncCallback15333660(runtimeScene, asyncObjectsList)), 15333660, asyncObjectsList);
 }
 }
 
